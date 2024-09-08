@@ -33,6 +33,18 @@ To start the development server, run the following command:
 npm start
 ```
 
+### 2.5. Viewing the Application in Responsive Mode
+
+The UI will look better on responsive mode, since it was implemented to look well on mobile devices
+
+1. **Open Developer Tools**
+
+   - Once you start your development server, Press `F12` (or `Ctrl+Shift+I` on Windows/Linux, `Cmd+Opt+I` on Mac) to open Developer Tools.
+
+2. **Enable Responsive Mode**
+   - Click the **Toggle Device Toolbar** button in Developer Tools (or press `Ctrl+Shift+M` on Windows/Linux, `Cmd+Shift+M` on Mac).
+   - Select a device from the list.
+
 ## 3. Libraries Used
 
 - **create-react-app**: Boilerplate for setting up the React app.
