@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Minutentag | React Challenge | Beer E-Commerce App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 1. Project Overview
 
-## Available Scripts
+This project is a React-based beer e-commerce app developed for a coding challenge. The main goal is to showcase a clean, interactive UI, fetching product data and prices, and integrating several key libraries for modern web development.
 
-In the project directory, you can run:
+## 2. How to Install & Run
 
-### `npm start`
+### 2.1. Install the Latest Stable Version of Node.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Download and install Node.js from [https://nodejs.org/](https://nodejs.org/).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2.2. Clone the repository
 
-### `npm test`
+```bash
+git clone https://github.com/jeanpierresm/minutentag-beer-app.git
+cd minutentag-beer-app
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2.3. Install Necessary Dependencies
 
-### `npm run build`
+Once being in the project folder, run the following command to install all required dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2.4. Run the Development Server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To start the development server, run the following command:
 
-### `npm run eject`
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 3. Libraries Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **create-react-app**: Boilerplate for setting up the React app.
+- **react-router-dom**: Handles routing in the app for navigation between pages.
+- **styled-components**: CSS-in-JS library used for component-level styling.
+- **feather-icons**: Lightweight collection of open-source icons.
+- **prettier**: Code formatting tool to maintain consistent code style.
+- **axios**: Promise-based HTTP client used to fetch data from APIs.
+- **react-spinners**: Provides a collection of loading spinners to indicate asynchronous operations.
