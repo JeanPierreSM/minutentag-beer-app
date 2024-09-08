@@ -8,6 +8,8 @@ import Spinner from "../components/Spinner";
 import Pill from "../components/Pill";
 import centsToUSD from "../helpers/centsToUSD";
 
+const LONG_POLLING_INTERVAL = 5000;
+
 const MainContainer = styled.div`
   width: 100%;
   max-width: 375px;
@@ -185,8 +187,6 @@ const AddToCartButton = styled.button`
   opacity: ${(props) => (props.disabled ? 0.7 : 1)};
   pointer-events: ${(props) => (props.disabled ? "none" : "auto")};
 `;
-
-const LONG_POLLING_INTERVAL = 15000;
 
 const ProductDetailsPage = ({
   loadingFullData,
